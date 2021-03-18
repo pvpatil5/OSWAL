@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.oswal.android.reports.ListenersLib"/>
+  </listeners>
+  <test verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.oswal.android.testscripts.TC_001">
+        <methods>
+          <include name="StopServer"/>
+          <include name="tc_001"/>
+          <include name="shutDownApp"/>
+          <include name="_LaunchApp"/>
+          <include name="StartServer"/>
+        </methods>
+      </class> <!-- com.oswal.android.testscripts.TC_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
